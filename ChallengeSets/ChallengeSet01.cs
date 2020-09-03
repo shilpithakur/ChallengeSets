@@ -10,7 +10,11 @@ namespace ChallengeSets
 
         public double Subtract(double minuend, double subtrahend)
         {
-            throw new NotImplementedException();
+            //double result;
+            //result = minuend - subtrahend;
+            //return result;
+            return (minuend - subtrahend);
+
         }
 
         public int Add(int number1, int number2)
