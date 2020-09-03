@@ -7,7 +7,14 @@ namespace ChallengeSets
     {
         public bool CharacterIsALetter(char c)
         {
-            throw new NotImplementedException();
+            //if (char.IsLetter(c))
+            //{
+            //    return true;
+            //}
+            //else
+            //    return false;
+
+            return (char.IsLetter(c));
         }
 
         public bool CountOfElementsIsEven(string[] vals)
