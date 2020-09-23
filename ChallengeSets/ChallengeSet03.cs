@@ -7,7 +7,16 @@ namespace ChallengeSets
     {
         public bool ArrayContainsAFalse(bool[] vals)
         {
-            throw new NotImplementedException();
+            foreach (bool value in vals)
+            {
+               if (value == false)
+                {
+                    return true;
+                    
+                }
+               
+            } return false;
+           
         }
 
         public bool IsSumOfOddsOdd(IEnumerable<int> numbers)
